@@ -1,0 +1,144 @@
+@import url("capstone.css");
+
+body.instructions{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/carousel2.jpg") no-repeat center fixed;
+	background-size: cover;
+	margin: 3%;
+}
+
+body {
+	margin: 2%;
+	padding: 5px;
+}
+
+h2{
+	color: #fff
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	padding-bottom: 1px;
+	margin-top: 2%;
+	position: relative;
+	text-align: center;
+	display: block;
+}
+
+ h2:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: -7px;
+    left: 40%;
+    border-bottom: 3px solid;
+    color: #fff;
+ }
+
+div.outer_map{
+	float: left;
+	width: 50%;
+	margin-top: 8%;
+
+}
+
+div.inner_map{
+	float: right;
+	width: 500px;
+	height: 350px;
+}
+
+img.BerlinMap{
+	width: 450px;
+	margin-left: auto;
+	margin-right: 5%;
+	display: block;
+}
+
+div.details{
+	display: inline-block;
+	width: 50%;
+	min-width: 450px;
+	margin-top: 8%;
+}
+
+div.email{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	width: 350px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 5%;
+	background-color: #a2cf8d;
+	margin-top: 5%;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #202628;
+}
+
+div.phone{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	width: 350px;
+	text-align: center;
+	margin-left: 5%;
+	background-color: #a2cf8d;
+	margin-top: 5%;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #202628;
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #202628;
+  text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+footer ul li a{
+	font-size: 16px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	display: inline-block;
+	background-color: #a2cf8d;
+	color: #202628;
+	border-radius: 50%;
+}
+
+div.copyright{
+	float: left;
+	width: 50%;
+	font-size: 12px;
+	font-color: #fff;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+div p{
+	text-align: right;
+	padding-right: 20%;
+}
+
+div.socialMedia{
+	float: left;
+	width: 50%;
+}

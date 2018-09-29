@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Quizzes</title>
+	<link rel="stylesheet" href="css/quizzes.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+	<script src="js/capstone.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="pageLoaded()">
+	
+	<header>
+
+		<div class="left">
+
+			<h1 class="title"> Challenger</h1>
+
+		</div>
+
+		<section class="right">
+			<nav>
+				<a href="index.html"> Home </a>
+				<a href="instructions.html"> Instructions </a>
+				<a href="quizzes.html"> Quizzes </a>
+				<a href="contact_me.html"> Contact me </a>
+			</nav>
+		</section>
+
+	</header>
+
+	<main>
+
+		<h2> Available quizzes</h2>
+
+		<div class="centered-content">
+			<div class="quiz-container">
+
+				<i class="fa fa-heart"></i>
+				<p class="title"> Geographical Quiz</p>
+				<p class="description"> Great choice.
+				<br/>
+				Click here to start the quiz.</p>
+
+				<div class="button">
+				<input class="button-input" type="submit" value="Start" onclick="showQuiz1()"/>
+				</div> 
+			</div>
+
+			<div class="quiz-container">
+
+				<i class="fa fa-heart"></i>
+				<p class="title"> Political Quiz</p>
+				<p class="description"> Great choice.
+				<br/>
+				Click here to start the quiz.</p>
+
+				<div class="button">
+				<input class="button-input" type="submit" value="Start" onclick="showQuiz2()"/>
+				</div> 
+
+			</div>
+
+			<div class="quiz-container">
+
+				<i class="fa fa-heart"></i>
+				<p class="title"> Linguistic Quiz</p>
+				<p class="description"> Great choice. <br/>
+				Click here to start the quiz.</p>
+
+				<div class="button">
+				<input class="button-input" type="submit" value="Start" onclick="showQuiz3()"/>
+				</div> 
+			</div>
+		</div>
+		<div class="centered-content">
+			<div class="all-questions" id="FirstQuiz">
+
+				<form class="Questions">
+
+					<span>The Palace of the Soviets was to be the first of many Soviet skyscraper projects, though its construction was interrupted at the onset of World War II. The project was subsequently canceled, and the foundations were transformed into what was then the world's largest open-air swimming pool in what city?</span><br/>
+
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the most intelligent animal in the world?"> Moscow
+					</label><br/>
+					<label>
+						<input type="radio" name="what is the most intelligent animal in the world?" > Warsaw
+					</label><br/>
+					<label>
+						<input type="radio" name="what is the most intelligent animal in the world?" > Kiev
+					</label><br/><br/>
+
+				</form>
+
+				<form class="Questions">
+					<span>The Sagrada Familia is Antoni Gaudi's monumental sanctuary, started in 1882 and scheduled for completion in 2026, on the centennial of Gaudi's death. While this and many of Gaudi's major masterpieces are located in Barcelona, he was born in a different Catalonian province—which one? </span> 
+					<br/>
+
+					<label>
+						<input type="radio" name="what is the biggest city in the world?" > Girona 
+					</label>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the biggest city in the world?"> Tarragona
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the biggest city in the world?" > Lleida
+					</label>
+					<br/>
+					<br/>
+				</form>
+
+				<form class="Questions">
+					<span>The tallest and most prominent structure in its city, the Ryugyong Hotel is nicknamed the "Phantom Pyramid," having sat unfinished for more than two decades. Construction reportedly resumed in 2008, though it still has no estimated completion time. In which Korean city is this hotel situated? </span> 
+					<br/>
+					<label>
+						<input type="radio" name="what is the current value of a bit coin?" > Incheon
+					</label>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the current value of a bit coin?"> Pyongyang
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the current value of a bit coin?" > Seoul
+					</label>
+					<br/>
+					<br/>
+				</form>
+
+				<form class="Questions">
+					<span>A supertall skyscraper, named Torre Generali, was to be the tallest in Latin America when completed in 2003. On clear days the upper floors would have afforded views of both the Pacific Ocean and the Caribbean Sea. Name the country in which this structure, which never materialized, would have been built. </span>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="how old was the oldest man in the world?"> Panama
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="how old was the oldest man in the world?" > Colombia
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="how old was the oldest man in the world?" > Costa Rica
+					</label>
+					<br/>
+					<br/>
+				</form>
+			</div>
+			<div class="all-questions" id="SecondQuiz">
+				<form class="Questions">
+
+					<span>How many general elections did Tony Blair win?</span>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the most intelligent animal in the world?"> 3</label>
+						<br/>
+					<label>
+						<input type="radio" name="what is the most intelligent animal in the world?" > 1</label>
+						<br/>
+					<label>
+						<input type="radio" name="what is the most intelligent animal in the world?" > 2</label>
+						<br/>
+						<br/>
+				</form>
+
+				<form class="Questions">
+					<span>How much money does Britain actually give to EU each week? </span> 
+					<br/>
+					<label>
+						<input type="radio" name="what is the biggest city in the world?" > £200m </label>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the biggest city in the world?"> £136m</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the biggest city in the world?" > £500m</label>
+					<br/>
+					<br/>
+				</form>
+
+				<form class="Questions">
+					<span>Where did David Cameron make his first speech after his father was named as having an offshore company in the Panama Papers? </span> 
+					<br/>
+					<label>
+						<input type="radio" name="what is the current value of a bit coin?" > Goldman Sachs</label>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the current value of a bit coin?"> PWC</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the current value of a bit coin?" > Bloomberg
+					</label>
+					<br/><br/>
+				</form>
+
+				<form class="Questions">
+					<span>Who described Donald Trump as "unfit to serve" and "out of his mind"? </span>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="how old was the oldest man in the world?"> Boris Johnson</label>
+					<br/>
+					<label>
+						<input type="radio" name="how old was the oldest man in the world?" > Hillary Clinton</label>
+					<br/>
+					<label>
+						<input type="radio" name="how old was the oldest man in the world?" > George Osborne
+					</label>
+					<br/>
+					<br/>
+				</form>
+			</div>
+			<div class="all-questions" id="ThirdQuiz">
+
+				<form class="Questions">
+
+					<span>How many languages are there in the world?</span><br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the most intelligent animal in the world?"> ca. 6900</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the most intelligent animal in the world?" > ca. 3500
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the most intelligent animal in the world?" > ca. 4400 
+					</label>
+					<br/>
+					<br/>
+				</form>
+
+				<form class="Questions">
+					<span>Which language is most spoken in the world? </span> 
+					<br/>
+					<label>
+						<input type="radio" name="what is the biggest city in the world?" > English
+					</label>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the biggest city in the world?"> Chinese
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the biggest city in the world?" > Spanish
+					</label>
+					<br/>
+					<br/>
+				</form>
+
+				<form class="Questions">
+					<span>Phonetics is the study of the sounds of language. What do we call these sounds? </span>
+				 	<br/>
+					<label>
+						<input type="radio" name="what is the current value of a bit coin?" > Syntax 
+					</label>
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="what is the current value of a bit coin?"> Phonemes
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="what is the current value of a bit coin?" > Morphemes
+					</label>
+					<br/>
+					<br/>
+				</form>
+
+				<form class="Questions">
+					<span>What is the study of language as it pertains to social classes, ethnic groups and genders? </span> 
+					<br/>
+					<label class="label_correct">
+						<input class="input_correct" type="radio" name="how old was the oldest man in the world?"> Sociolinguistics
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="how old was the oldest man in the world?" > Psycholinguistics
+					</label>
+					<br/>
+					<label>
+						<input type="radio" name="how old was the oldest man in the world?" > Comparative linguistics
+					</label>
+					<br/>
+					<br/>
+				</form>
+			</div>
+
+			<div id="end-buttons" class="quiz-container">
+				<div class="button centered">
+					<input class="button-input" type="submit" value="Check my answers" onclick="upDate()"/>
+				</div>
+
+				<form class="score">
+					<label class="buttons" for="score" > Score:</label>
+					<input class="ShownResults" type="text" name="scored points" id="score">	
+				</form> <br/><br/>
+
+				<div class="button centered">
+					<input class="button-input" type="submit" value="Show correct answers" onclick="showCorrect()" />
+				</div>
+
+				<div class="button centered">
+					<input class="button-input" type="submit" value="Play once again" onclick="resetAll()">
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url("capstone.css");
+
+body.instructions{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/instructions_web.jpg") no-repeat center fixed;
+	background-size: cover;
+	margin: 3%;
+}
+
+main.john{
+	width: 100%;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div.row:after{
+	content: "";
+    display: table;
+    clear: left;
+}
+
+div.lft{
+	float: left;
+	width: 60%;
+}
+
+div.rgh{
+	float: right;
+	width: 40%;
+ }
+
+ @media only screen and (max-width: 870px){
+ 	div.rgh{
+ 		display: none;
+ 	}
+ }
+
+h1{
+	font-size: 24px;
+	font-weight: 700;
+	font-family: "Open Sans", arial;
+	padding-left: 30%;
+	letter-spacing: 0.5px;
+}
+
+
+p{
+	font-size: 14px;
+	letter-spacing: 0.25px;
+	padding-left: 30%;
+}
+
+span{
+	font-size: 11px;
+	letter-spacing: 1px;
+	padding: 2px 2px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div.button-home{
+	display: inline-block;
+	margin-left: 4%;
+	background-color: #ffffff;
+}
+
+div.button-home:hover{
+	background-color: #121212;
+}
+
+div.button-home:hover a{
+	color: #ffffff;
+	transition: all 0.7s;
+}
+
+a.button-link-home{
+	color: #121212;
+}
+
+div.button-quizzes{
+	display: inline-block;
+	margin-left: 18%;
+}
+
+div.images{
+	position: relative;
+}
+
+img.hanna{
+	width: 30%;
+	height: auto;
+	display: block;
+	margin-left: 30%;
+}
+
+img.marek{
+	width: 30%;
+	height: auto;
+	display: block;
+	margin-left: 40%;
+}
+
+img.romeo{
+	width: 30%;
+	height: auto;
+	display: block;
+	position: absolute;
+	top: 35%;
+	right: 55%;
+}

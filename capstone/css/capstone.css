@@ -1,0 +1,169 @@
+
+
+
+
+/*GENERAL STYLING*/
+html{
+	font-family: "Open Sans", arial;
+	color: white;
+}
+
+a{
+	padding: 9px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h1.title{
+	margin:0px;
+	color: #ffffff;
+	padding-left: 40%;
+	font-family: "Dream Orphans", magneto, arial;
+	font-size: 40px;
+}
+
+/*HEADER*/
+
+section.right{
+	display: block;
+	width:100%;
+	text-align: right;
+	text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+
+div.left{
+	display: block;
+	width:100%;
+	text-align: left;
+}
+
+/*BUTTONS*/
+
+div.button{
+	background-color: #a2cf8d;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+
+}
+
+div.button:hover{
+	background-color: rgb(92, 157, 125);
+	transition: all 0.7s;
+}
+
+a.button-link{
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/*@media only screen and (max-width: 869px){
+	div * {
+   		font-size: 10px !important;
+	}
+
+	h2 * {
+		font-size: 40px !important;	
+	}
+}*/
+
+@media only screen and (min-width: 870px){
+
+	header.landing{
+		display: flex;
+	}
+
+	section.right{
+		flex: 1;
+		display: inline-block;
+		width:50%;
+		float: right;
+		display: flex;
+	}
+
+	div.left{
+		flex: 1;
+		display: inline-block;
+		width:50%;
+	}
+}
+
+
+@media only screen and (max-width: 869px){
+
+/*INDEX MOBILE*/
+
+	h1.title{
+		color: rgb(92, 157, 125);
+		font-size: 30px;
+		text-align: center;
+		padding: 0px;
+	}
+
+	a{
+		color: rgb(92, 157, 125);
+		display: block;
+		text-align: center;
+	}
+
+	a.button-link{
+		color:  #ffffff;
+	}
+
+	main.peter{
+		max-height: 10%;
+	}
+
+/*INSTRUCTIONS MOBILE*/
+
+	main.john{
+		max-height: 10%;
+		max-width: 100%;
+}
+
+	div.lft{
+		max-height: 10%;
+		text-align: center;
+		margin-left: 7%;
+		font-size: 0.5em;
+	}
+
+
+/*CONTACT ME MOBILE*/
+
+div.outer_map{
+	display: none;
+}
+
+div.email{
+	text-align: center;
+	max-width: 50%;
+}
+
+div.phone{
+	text-align: center;
+	max-width: 50%;
+}
+
+footer{
+display: none;
+}
+
+
+
+
+
+
